@@ -29,18 +29,3 @@ Image-Classifier/
 │── README.md
 │── .gitignore
 ```
-
-## ▶️ Run Locally
-
-```bash
-pip install -r requirements.txt
-streamlit run app.py
-```
-
-## 📷 Example
-
-Upload a cat or dog image and the application predicts the class with a confidence percentage.
-
----
-
-Developed as a deep learning image classification project using TensorFlow and Streamlit.
