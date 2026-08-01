@@ -19,6 +19,26 @@ A deep learning web application built with **TensorFlow** and **Streamlit** that
 - NumPy
 - Pillow
 
+## Model Architecture
+
+The classifier uses a custom Convolutional Neural Network (CNN) built from scratch with TensorFlow/Keras using the Sequential API.
+
+Architecture:
+- Input Layer (256 × 256 × 3)
+- Data Augmentation
+  - Random Flip
+  - Random Rotation
+  - Random Zoom
+  - Random Contrast
+  - Random Translation
+- Conv2D (32 filters) + Batch Normalization + MaxPooling
+- Conv2D (64 filters) + Batch Normalization + MaxPooling
+- Conv2D (128 filters) + Batch Normalization + MaxPooling
+- Flatten
+- Dense (128) + ReLU + Dropout
+- Dense (64) + ReLU + Dropout
+- Output Layer (Sigmoid)
+
 ## 📂 Project Structure
 
 ```
