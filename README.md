@@ -19,7 +19,7 @@ A deep learning web application built with **TensorFlow** and **Streamlit** that
 - NumPy
 - Pillow
 
-## Model Architecture
+## 🧠 Model Architecture
 
 The classifier uses a custom Convolutional Neural Network (CNN) built from scratch with TensorFlow/Keras using the Sequential API.
 
